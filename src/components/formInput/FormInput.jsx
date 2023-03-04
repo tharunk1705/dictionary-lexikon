@@ -18,7 +18,7 @@ const FormInput = ({ error, handleKeywordChange, handleSearch }) => {
       >
         <input
           type="text"
-          placeholder="type a word here to get its meaning"
+          placeholder="type here to get meaning"
           autoComplete="off"
           className="w-full shrink p-4 rounded-md outline-none border-0 text-white placeholder:text-neutral-500 bg-transparent "
           onChange={(e) => handleChange(e)}
